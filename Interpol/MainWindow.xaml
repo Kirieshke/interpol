@@ -1,0 +1,16 @@
+﻿<Window x:Class="Interpol.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Interpol"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="694.049" Width="543.251">
+    <Grid Margin="0,0,2,13" Background="#001B3E">
+        <Button Content="Просмотреть информацию" HorizontalAlignment="Left" Margin="78,197,0,0" VerticalAlignment="Top" Width="419" Height="66" FontSize="18" Click="Button_Click" Background="#FF5D8ADA" FontFamily="SimSun"/>
+        <Button Content="Добавить данные" HorizontalAlignment="Left" Margin="78,334,0,0" VerticalAlignment="Top" Width="419" Height="66" FontSize="18" Click="Button_Click_1" Background="#FF5D8ADA" FontFamily="SimSun"/>
+        <Button Content="Удалить данные" HorizontalAlignment="Left" Margin="78,476,0,0" VerticalAlignment="Top" Width="419" Height="66" FontSize="18" Click="Button_Click_2" Background="#FF5D8ADA" FontFamily="SimSun"/>
+        <Label Content="Возможные действия" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="143,112,0,0" Height="44" Width="290" FontSize="24" FontFamily="Arial Rounded MT Bold" Foreground="White"/>
+
+    </Grid>
+</Window>

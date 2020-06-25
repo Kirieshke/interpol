@@ -1,0 +1,20 @@
+﻿<Window x:Class="Interpol.delete_info"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Interpol"
+        mc:Ignorable="d"
+        Title="delete_info" Height="596.624" Width="517.344">
+    <Grid Background="#FF001B3E" Margin="0,0,0,-6">
+        <ComboBox x:Name="comboBox1" HorizontalAlignment="Left" Margin="141,272,0,0" VerticalAlignment="Top" Width="225" SelectionChanged="comboBox1_SelectionChanged"/>
+        <ComboBox Name="comboBox2" HorizontalAlignment="Left" Margin="141,294,0,0" VerticalAlignment="Top" Width="225" Visibility="Hidden"/>
+
+        <Label Content="Удалить информацию про" HorizontalAlignment="Left" Margin="141,187,0,0" VerticalAlignment="Top" Width="248" FontSize="18" Foreground="White"/>
+        <Label x:Name="label1" Content="Уточнение" HorizontalAlignment="Left" Margin="141,260,0,0" VerticalAlignment="Top" FontSize="18" Width="118" Visibility="Hidden"/>
+
+        <Button Content="Удаление" HorizontalAlignment="Left" Margin="182,457,0,0" VerticalAlignment="Top" Width="151" Height="61" FontSize="20" Click="Button_Click" Background="#FF5D8ADA"/>
+        <Label Content="Удалить" HorizontalAlignment="Left" Margin="182,92,0,0" VerticalAlignment="Top" Height="62" Width="147" FontSize="36" Foreground="White"/>
+    </Grid>
+
+</Window>

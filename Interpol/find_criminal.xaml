@@ -1,0 +1,24 @@
+﻿<Window x:Class="Interpol.find_criminal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Interpol"
+        mc:Ignorable="d"
+        Title="find_criminal" Height="507.975" Width="920.092">
+    <Grid Margin="0,0,2,9" Background="#FF001B3E">
+        <DataGrid x:Name ="dataGrid2" HorizontalAlignment="Left" Height="162" Margin="54,250,0,0" VerticalAlignment="Top" Width="805" Background="#FF001B3E"/>
+        <Label Content="Рост" HorizontalAlignment="Left" Margin="39,63,0,0" VerticalAlignment="Top" Width="85" FontSize="22" Foreground="White"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="21" Margin="39,98,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="56"/>
+        <TextBox x:Name="textBox2" Height="21" Margin="129,98,724,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="57" RenderTransformOrigin="0.734,0.609"/>
+        <Label Content="—" HorizontalAlignment="Left" Margin="100,86,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.044,0.143" Width="24" FontSize="20" Height="33" Foreground="White"/>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="21" Margin="259,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="139"/>
+        <Label Content="Цвет глаз" HorizontalAlignment="Left" Margin="259,67,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.117,0.574" Width="111" FontSize="16" Foreground="White"/>
+        <TextBox x:Name="textBox4" Height="21" Margin="464,98,308,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="138"/>
+            <Label Content="Цвет волос" HorizontalAlignment="Left" Margin="464,67,0,0" VerticalAlignment="Top" FontSize="16" Foreground="White"/>
+        <Label Content="Особенные приметы" HorizontalAlignment="Left" Margin="54,163,0,0" VerticalAlignment="Top" Width="204" FontSize="18" Foreground="White"/>
+        <Button Content="Найти" HorizontalAlignment="Left" Margin="672,52,0,0" VerticalAlignment="Top" Width="176" Height="72" FontSize="24" Click="Button_Click" FontFamily="SimSun" Background="#FF5D8ADA"/>
+        <ComboBox x:Name="comboBox4" HorizontalAlignment="Left" Margin="54,202,0,0" VerticalAlignment="Top" Width="805"/>
+
+    </Grid>
+</Window>
